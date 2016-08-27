@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url("normalize.css");
+@import url("grid.css");
+@import url("plantillas.css");
+@import url("blogpost.css");
+@import url("style.css");
+@import url("fonts.css");
+@import url("listado.css");
+@import url("jquery-ui-theme.css");
+@import url("jquery-core.css");
+@import url("recursos.css");
+
+*{outline:none}
+html{height:100%}
+body{position:relative;width:100%;float:left;padding-bottom:220px;background:#f8f8f8;font: normal 80% Arial, Verdana, Helvetica, sans-serif;color:#5b5954}
+
+input, textarea, select{}
+
+input[type="text"], input[type="password"], input[type="file"], input[type="email"], input[type="number"], textarea, select {padding:10px;border:1px solid #e5e5e5;background:#f6f6f6;color:#9c9a96;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+}
+input[type="checkbox"], input[type="radio"] {width: auto;padding: 0;border: 0; background: transparent}
+select{padding:0}
+
+a{text-decoration:none;color:#abb709}
+a:hover{text-decoration: underline !important}
+
+/* anclas */
+a.ancla_destino{position:absolute;visibility:hidden}
+a.ancla_origen{text-decoration:underline}
+/* enlaces */
+/* cuando enlazo un contenido sin seleccionar ningun texto */ a.enlace_interno  {}
+/* enlace de tipo correo */ a.enlace_email  {}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none}
+h1 {margin:0;padding:0;font:normal 3.3em bankia;color:#c3cf02}
+h2, h3, h4, h5, h6{margin:0 0 10px;font:normal 1em bankia;color:#c3cf02}
+h2{font-size:2.5em}
+h3{font-size:2em}
+h4{font-size:1.5em}
+h5, h6{font-size:1.2em}
+h2.tipo2{color:#4c3c2f}
+h3.tipo2, h4.tipo2, h5.tipo2, h6.tipo2{font-weight:bold;font-family:Arial;color:#4c3c2f}
+
+ol{margin:15px 0}
+ol li{padding-bottom:10px;list-style-type:decimal}
+ul{margin:0;padding:0;list-style:none}
+ul.tipo1, ul.tipo2{margin:15px;clear:left}
+ul.tipo1 li, ul.tipo2 li{padding:0 0 10px 10px;background:transparent no-repeat 0 4px;line-height:1.5em}
+ul.tipo1 li{padding-left:15px;background-image:url(/public/img/css/icono/vineta2_wu_8ae28291feb3e5247540f4efe0060193.png)}
+ul.tipo2 li{margin-bottom:10px;background-image:url(/public/img/css/icono/vineta3_wu_7a88f569721664f9ca377e74ef91a300.gif);background-position:0 8px;border-bottom:1px solid #d9d9d9}
+
+table{margin:15px 0;border-collapse:separate;border-spacing:3px;text-align:left}
+caption{margin-bottom:5px;font:normal 2em bankia_medium;text-align:left;color:#645a4f}
+th, td{padding:10px 1%;background:#fff;color:#767676}
+th{background:#645a4f;color:#fff}
+th.tipo1, td.tipo1{background:#f1f3ca;color:#767676}
+td.tipo2, th.tipo2{background:#f2f2f2;color:#767676}
+
+hr{clear:both;width:100%;height:1px;border:0;background:#000;color:#000}
+kbd{line-height:2em;font: normal .8em "Lucida console", Courier, monospace;border-top:.15em solid #ccc;border-right:.25em solid #aaa;border-bottom:.3em solid #888;border-left:.2em solid #bbb;padding:.05em .2em;margin:0 5px 0 0;color:#000;background:#eee;vertical-align:text-bottom}
+
+p{margin:0 0 15px;line-height:1.5em}
+
+.cursorAdjunto{cursor:pointer}
+.mensaje{position:absolute;top:0;left:-4000px;z-index:-100}
+
+p.inforesultados{clear:both;margin:0 0 10px;padding:15px 10px;font-style:italic;font-size:1.2em;color:#1f1d1d}
+.vertodos{margin:15px 0 0}
+.vertodos a, .vertodos a:hover{padding-right:15px;background:transparent url(/public/img/css/icono/vineta1_wu_a888955d78e3ad842f09a25d8efb1650.png) no-repeat 100% 2px;font-weight:bold}
+
+.modulo100{width:100%;float:left}
+.img_Sin, .img_Con{vertical-align:middle}
+.img_Sin_L, .img_Con_L{float:left;margin:0 10px 10px 0}
+.img_Sin_R, .img_Con_R{float:right;margin:0 0 10px 10px}
+.img_Con, .img_Con_L, .img_Con_R{margin-bottom:10px;border:3px solid #ededed}
+
+/**
+* ESTRUCTURA
+**/
+#main-header, #main-section, #situacion, #recurso, #main-footer{width:100%;float:left}
+#main-header{background:#50392a url(/public/img/css/portal/fondo1_wu_522095c62f90ebfb53e38bf045dadf33.jpg) no-repeat 50% 0;height:138px;text-align:center}
+#main-section{padding:0 0 20px;background:#f8f8f8}
+#main-section .container{position:relative}
+#situacion{width:75%;padding:0;margin-top:-18px;background:#f8f8f8;min-height:18px !important;height:auto !important;height:18px}
+#main-footer{position:absolute;bottom:0;left:0;padding:10px 0;background:#50392a url(/public/img/css/portal/fondo2_wu_b05102d6c283f54652239168f53c1989.jpg) no-repeat 50% 100%;color:#cfca9f}
+	.lt-ie9 #main-footer{position:static}
+#recurso{padding-bottom:25px}
+
+/* encabezado */
+.logo{margin:30px 0 0}
+
+/*redes sociales*/
+.red-social{width:97%;float:left;padding:0 0 20px 3%}
+.red-social *{display:inline-block;margin:0;vertical-align:middle;color:#474747}
+.red-social p{margin-right:15px}
+.red-social li a{width:32px;height:32px;display:block;background:transparent url(../images/redSocial_wu_3c07d4cab4d78866708c242fa6707a6d.png) no-repeat 0 0;text-indent:999999px;overflow:hidden}/*necesita el overflow con el text-indent para que no salga scroll horizontal*/
+.red-social .twitter a{background-position:-32px 0}
+.red-social .youtube a{background-position:-64px 0}
+.red-social .google a{background-position:-130px 0}
+.red-social .rss a{background-position:-96px 0}
+.red-social-footer{width:100%;padding:15px 0;background:#f2f2f2;text-align:center}
+
+/* situacion */
+#compas{width:96%;float:left;padding:20px 0 14px;border-bottom:1px solid #c6c5c2;color:#8f7662;font-size:.9em}
+#compas *{display:inline-block;margin:0;padding:0 6px 0 0;list-style-type:none}
+#compas a{color:#555349}
+#pactivo{width:96%;float:left;min-height:75px !important;height:auto !important;padding:25px 0 15px;text-align:center}
+#pactivo p{font:normal 2em bankia;}
+#pactivo.pactivo-ficha-post{min-height:20px !important}
+
+#atajo{width:100%;float:left;text-align:right;padding:0 0 10px;border-bottom:1px solid #e5e5e5}
+#atajo li{display:inline-block;vertical-align:top;margin:0 2px}
+#atajo li a{display:block;padding:10px 15px 8px;background:#fff;text-transform:uppercase;font:normal 1.15em bankia_medium;color:#434343;text-decoration:none !important}
+#atajo #atajoVolver a{color:#b9d12e;padding-left:25px;background:#fff url(/public/img/css/icono/volver_wu_23425634d0b4c4bdbba3f25868bd6076.png) no-repeat 9px 55%}
+
+/* pie */
+#main-footer .seccion1, #main-footer .seccion2{width:100%;float:left;padding:42px 0 0}
+#main-footer .nine-col a{font-size:.95em;color:#c3cf02;text-transform:uppercase}
+#main-footer .three-col a{color:#b5ae89}
+#main-footer li{display:inline-block;padding:0 4px;border-right:1px solid #c3cf02;line-height:1.1em}
+#main-footer li:last-child{border-right:none}
+#main-footer .three-col li{border-color:#a79f7d}
+#main-footer p{margin:0;padding-bottom:12px;text-align:center}
+#main-footer p.copy{padding-top:20px;background:transparent url(/public/img/css/portal/sombraPie_wu_527fe61076bc5146a4ab5660e2a05666.png) no-repeat 50% 0;}
+
+/**
+* ERROR DE URL
+**/
+#a_error{margin:20px auto 30px;padding:50px;background:#fff}
+#errorejecucion h2{margin-bottom:20px;color:#4c3c2f}
+#errorejecucion p, #errorejecucion ul{font-size:1.2em}
+#errorejecucion ul{margin:0}
+
+.apifacebook{width:100% !important;margin-bottom:20px}
+.fb-page,
+.fb-page span,
+.fb-page span iframe[style] {
+    width: 100% !important;
+}
+
+/*
+ * NO BORRAR arregla un bug del boton google plus
+ * que genera scroll horizontal
+ */
+iframe[id^="oauth2relay"]{left:auto !important;right:0!important}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*
+	GRID de 16 Cols. 1140px
+	Based on the 12 -column 1140px Grid by Andy Taylor – http://cssgrid.net – http://www.twitter.com/andytlr – http://www.catchingzebra.com
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: auto;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.row {
+	width: 100%;
+	clear: both;
+	/*overflow: hidden;*/
+}
+
+.one-col,
+.two-col,
+.three-col,
+.four-col,
+.five-col,
+.six-col,
+.seven-col,
+.eight-col,
+.nine-col,
+.ten-col,
+.eleven-col,
+.twelve-col {
+	display: block;
+	float:left;
+	margin-right: 2%;
+}
+
+.one-col {
+	width: 6.5%;
+}
+
+.two-col {
+	width: 15.0%;
+}
+
+.three-col {
+	width: 23.5%;
+}
+
+.four-col {
+	width: 32.0%;
+}
+
+.five-col {
+	width: 40.5%;
+}
+
+.six-col {
+	width: 49.0%;
+}
+
+.seven-col {
+	width: 57.5%;
+}
+
+.eight-col {
+	width: 66.0%;
+}
+
+.nine-col {
+	width: 74.5% !important
+}
+
+.ten-col {
+	width: 83.0%;
+}
+
+.eleven-col {
+	width: 91.5%;
+}
+
+.twelve-col {
+	width: 100%;
+}
+
+
+[class*="-col last"],
+.row [class*="-col last"] {
+	margin-right: 0;
+}
+
+img,
+embed {
+	max-width: 100%;
+}

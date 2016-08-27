@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.destacados-dcha li{padding:0 0 9px;font:normal 1.1em bankia}
+.destacados-dcha img, .destacados-dcha li span{display:inline-block;vertical-align:top}
+.destacados-dcha li span{width:66%;margin-left:2%}
+.destacados-dcha a{display:block;color:#5b5954 !important}
+
+.dest-tipo2 li{padding-bottom:15px;font:normal 1em bankia}
+.dest-tipo2 li:last-child{padding-bottom:7px}
+.dest-tipo2 li a:hover, .firmas li a:hover{text-decoration:none !important;}
+.dest-tipo2 li a:hover span, .firmas li a:hover span{text-decoration:underline}
+
+
+/* etiquetas post */
+.etiquetas li, .categorias li{display:inline-block;margin-bottom:4px;padding:4px 10px;background:#f8f8f8;font-size:1em;font-weight:normal;}
+.etiquetas a, .categorias a{color:#4c3c2f !important}
+
+/* acordeon de archivo */
+#archivo .subaccordion{width:100%;float:left;padding:0 0 5px 0 !important;border:0 !important;border-bottom:1px solid #dcdcdc !important;}
+#archivo .subaccordion ul{width:100%;float:left;padding-bottom:9px}
+#archivo .subaccordion ul li{padding:0 0 7px;font-size:1em;font-weight:normal}
+#archivo .subaccordion ul li a{display:inline}
+#archivo .subaccordion .ui-accordion-content{padding:0 30px !important;border:0 !important}
+#archivo p.anio{width:88%;float:left;margin:0;padding:4px 6% 10px;border:none;background:none;font:normal 1.2em bankia;color:#a7b200}
+#archivo p.anio span{float:left;width:11px; height:9px;margin:5px 9px 0 0;background:transparent url(/public/img/css/aplicacion/icoAcordeonAnio_wu_030716f91f6f59e8009e50cd9d3db6d6.png) no-repeat 0 0 !important}
+#archivo p.ui-accordion-header-active .ui-accordion-header-icon{background-position:-11px 0 !important}
+
+/* buscador articulos */
+.buscador{width:97%;float:left;padding:7px 0 25px 3%}
+.buscador h2{text-transform:uppercase;color:#2f1d0e;font:normal 1.9em bankia_medium;}
+.buscador label input{padding:8px 2%;width:95%;background:#fff}
+.buscador input.buscar{margin:15px 0 0;padding:9px 20px 8px;border:0;background:#c3cf02;font:normal 1.3em bankia;color:#fff;text-transform:uppercase;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+}
+
+/* inscripcion al boletin */
+.boletindest{width:90%;float:left;margin-bottom:20px;padding:15px 5%;background:#eae9e9}
+.boletindest h2{font-size:1.6em;color:#868482}
+.boletindest h2 strong{display:block;font:normal 1.3em bankia_medium;color:#58493d}
+.boletindest form{width:100%;float:left}
+.boletindest .cuerpoform{width:99%;float:left;padding:2px 1px;background:#fff}
+.boletindest p{display:inline-block;vertical-align:top;margin:0}
+.boletindest .campo100{position:relative;width:83%}
+.boletindest label{top:5px}
+.boletindest .campo100 input{width:99%;padding:6px;background:transparent;border:0}
+.boletindest .botones{width:auto;float:right}
+.boletindest .botones input{width:28px;height:28px;display:block;padding:0;background:transparent url(/public/img/css/aplicacion/boton_wu_a180fa45b37a28ebf4412e38c8fa9fc9.png) no-repeat 0 0;border:0;text-indent:-9999px}
+
+
+.destacados-dcha li{padding:0 0 9px;font:normal 1.1em bankia}
+.destacados-dcha img, .destacados-dcha li span{display:inline-block;vertical-align:top}
+.destacados-dcha li span{width:66%;margin-left:2%}
+.destacados-dcha a{display:block;color:#5b5954 !important}
+
+.dest-tipo2 li{padding-bottom:15px;font:normal 1em bankia}
+.dest-tipo2 li:last-child{padding-bottom:7px}
+.dest-tipo2 li a:hover, .firmas li a:hover{text-decoration:none !important;}
+.dest-tipo2 li a:hover span, .firmas li a:hover span{text-decoration:underline}
+
+
+/* etiquetas post */
+.etiquetas li, .categorias li{display:inline-block;margin-bottom:4px;padding:4px 10px;background:#f8f8f8;font-size:1em;font-weight:normal;}
+.etiquetas a, .categorias a{color:#4c3c2f !important}
+
+/* acordeon de archivo */
+#archivo .subaccordion{width:100%;float:left;padding:0 0 5px 0 !important;border:0 !important;border-bottom:1px solid #dcdcdc !important;}
+#archivo .subaccordion ul{width:100%;float:left;padding-bottom:9px}
+#archivo .subaccordion ul li{padding:0 0 7px;font-size:1em;font-weight:normal}
+#archivo .subaccordion ul li a{display:inline}
+#archivo .subaccordion .ui-accordion-content{padding:0 30px !important;border:0 !important}
+#archivo p.anio{width:88%;float:left;margin:0;padding:4px 6% 10px;border:none;background:none;font:normal 1.2em bankia;color:#a7b200}
+#archivo p.anio span{float:left;width:11px; height:9px;margin:5px 9px 0 0;background:transparent url(/public/img/css/aplicacion/icoAcordeonAnio_wu_030716f91f6f59e8009e50cd9d3db6d6.png) no-repeat 0 0 !important}
+#archivo p.ui-accordion-header-active .ui-accordion-header-icon{background-position:-11px 0 !important}
+
+/* buscador articulos */
+.buscador{width:97%;float:left;padding:7px 0 25px 3%}
+.buscador h2{text-transform:uppercase;color:#2f1d0e;font:normal 1.9em bankia_medium;}
+.buscador label input{padding:8px 2%;width:95%;background:#fff}
+.buscador input.buscar{margin:15px 0 0;padding:9px 20px 8px;border:0;background:#c3cf02;font:normal 1.3em bankia;color:#fff;text-transform:uppercase;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+}
+
+/* inscripcion al boletin */
+.boletindest{width:90%;float:left;margin-bottom:20px;padding:15px 5%;background:#eae9e9}
+.boletindest h2{font-size:1.6em;color:#868482}
+.boletindest h2 strong{display:block;font:normal 1.3em bankia_medium;color:#58493d}
+.boletindest form{width:100%;float:left}
+.boletindest .cuerpoform{width:99%;float:left;padding:2px 1px;background:#fff}
+.boletindest p{display:inline-block;vertical-align:top;margin:0}
+.boletindest .campo100{position:relative;width:83%}
+.boletindest label{top:5px}
+.boletindest .campo100 input{width:99%;padding:6px;background:transparent;border:0}
+.boletindest .botones{width:auto;float:right}
+.boletindest .botones input{width:28px;height:28px;display:block;padding:0;background:transparent url(/public/img/css/aplicacion/boton_wu_a180fa45b37a28ebf4412e38c8fa9fc9.png) no-repeat 0 0;border:0;text-indent:-9999px}
+
+
+
+.destacados-dcha li{padding:0 0 9px;font:normal 1.1em bankia}
+.destacados-dcha img, .destacados-dcha li span{display:inline-block;vertical-align:top}
+.destacados-dcha li span{width:66%;margin-left:2%}
+.destacados-dcha a{display:block;color:#5b5954 !important}
+
+.dest-tipo2 li{padding-bottom:15px;font:normal 1em bankia}
+.dest-tipo2 li:last-child{padding-bottom:7px}
+.dest-tipo2 li a:hover, .firmas li a:hover{text-decoration:none !important;}
+.dest-tipo2 li a:hover span, .firmas li a:hover span{text-decoration:underline}
+
+
+/* etiquetas post */
+.etiquetas li, .categorias li{display:inline-block;margin-bottom:4px;padding:4px 10px;background:#f8f8f8;font-size:1em;font-weight:normal;}
+.etiquetas a, .categorias a{color:#4c3c2f !important}
+
+/* acordeon de archivo */
+#archivo .subaccordion{width:100%;float:left;padding:0 0 5px 0 !important;border:0 !important;border-bottom:1px solid #dcdcdc !important;}
+#archivo .subaccordion ul{width:100%;float:left;padding-bottom:9px}
+#archivo .subaccordion ul li{padding:0 0 7px;font-size:1em;font-weight:normal}
+#archivo .subaccordion ul li a{display:inline}
+#archivo .subaccordion .ui-accordion-content{padding:0 30px !important;border:0 !important}
+#archivo p.anio{width:88%;float:left;margin:0;padding:4px 6% 10px;border:none;background:none;font:normal 1.2em bankia;color:#a7b200}
+#archivo p.anio span{float:left;width:11px; height:9px;margin:5px 9px 0 0;background:transparent url(/public/img/css/aplicacion/icoAcordeonAnio_wu_030716f91f6f59e8009e50cd9d3db6d6.png) no-repeat 0 0 !important}
+#archivo p.ui-accordion-header-active .ui-accordion-header-icon{background-position:-11px 0 !important}
+
+/* buscador articulos */
+.buscador{width:97%;float:left;padding:7px 0 25px 3%}
+.buscador h2{text-transform:uppercase;color:#2f1d0e;font:normal 1.9em bankia_medium;}
+.buscador label input{padding:8px 2%;width:95%;background:#fff}
+.buscador input.buscar{margin:15px 0 0;padding:9px 20px 8px;border:0;background:#c3cf02;font:normal 1.3em bankia;color:#fff;text-transform:uppercase;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+}
+
+/* inscripcion al boletin */
+.boletindest{width:90%;float:left;margin-bottom:20px;padding:15px 5%;background:#eae9e9}
+.boletindest h2{font-size:1.6em;color:#868482}
+.boletindest h2 strong{display:block;font:normal 1.3em bankia_medium;color:#58493d}
+.boletindest form{width:100%;float:left}
+.boletindest .cuerpoform{width:99%;float:left;padding:2px 1px;background:#fff}
+.boletindest p{display:inline-block;vertical-align:top;margin:0}
+.boletindest .campo100{position:relative;width:83%}
+.boletindest label{top:5px}
+.boletindest .campo100 input{width:99%;padding:6px;background:transparent;border:0}
+.boletindest .botones{width:auto;float:right}
+.boletindest .botones input{width:28px;height:28px;display:block;padding:0;background:transparent url(/public/img/css/aplicacion/boton_wu_a180fa45b37a28ebf4412e38c8fa9fc9.png) no-repeat 0 0;border:0;text-indent:-9999px}
+
+

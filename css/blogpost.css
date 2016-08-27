@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#a_blogpost{width:100%;float:left}
+
+#a_blogpost .primero .img-asociada{width:100%;float:left;}
+#a_blogpost .primero .caja-post{width:94%;padding:15px 3%;min-height:50px !important}
+#a_blogpost .primero .nombre{padding:9px 0 0 35px}
+#a_blogpost .primero .tipo{left:18px;}
+#a_blogpost .primero .tipo.articulo{left:22px;}
+#a_blogpost .primero .descripcion{padding-top:15px;border-top:1px solid #f0efef}
+#a_blogpost .primero .cajacompartir{width:auto;margin-right:7px}
+
+/* comentarios */
+div#comentarios{width:100%;float:left}
+.comentar{width:97%;float:left;padding:20px 0 20px 3%;margin:0;}
+.comentar span{float:left;padding:5px 0 0;color:#5b5954;font:normal 1.7em bankia;}
+.comentar strong{float:right;padding:10px 28px;background:#c3cf02;color:#fff;font:normal 1.2em bankia;text-transform:uppercase}
+
+.formulario{width:94%;float:left;padding:20px 3% 0;background:#fff}
+.formulario .txt-dest, .formulario ul.tipo1{font:normal 1.2em bankia}
+.formulario .campo50 input, .formulario .campo50r input{width:95%}
+.formulario textarea{width:98%}
+.formulario .botones{margin-bottom:0}
+
+.listado-comentarios{width:94%;float:left;padding:20px 3%;background:#fff}
+.listado-comentarios .comentarios{font-size:1.9em;color:#4c3c2f}
+.listado-comentarios dl{margin:10px 0;border-bottom:1px solid #e0e0df}
+.listado-comentarios dt{margin:0;padding:25px 0 10px;border-top:1px solid #e0e0df;font-size:.9em;color:#949292}
+.listado-comentarios dt strong{display:block;padding:15px 0 5px;color:#abb709;font:normal 1.25em bankia}
+.listado-comentarios dd{margin:0;padding-bottom:20px;}
+.listado-comentarios .respuesta{margin:20px 0 0;border:0}
+.listado-comentarios .respuesta dt{padding-left:35px}
+.listado-comentarios .respuesta dd{padding:0 0 0 35px}
+
+
+
+

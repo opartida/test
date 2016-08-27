@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* -------------------
+	.listado_tipo1, [noticias, eventos]
+	.listado_tipo2, [boletines]
+---------------------*/
+
+.itemlistado{width:100%;float:left;margin-bottom:30px;background:#fff;}
+.itemlistado .img-asociada{width:45.5%;float:left;}
+.itemlistado .caja-post{width:45%;min-height:235px !important;height:auto;float:left;position:relative;padding:15px 3% 5px 6.5%}
+
+.asociada{width:100%;display:block}
+.nombre{display:block;margin-bottom:3px;font:normal 2em bankia;color:#4c3c2f}
+.nombre a{color:#4c3c2f}
+.fecha{display:block;margin:7px 0 10px;color:#abb709;font:normal 1.1em bankia;}
+.autor{color:#555553;font-weight:normal;margin:0 0 0 5px}
+.tipo{position:absolute;top:27px;left:10px;width:26px;height:26px;margin:0;background:transparent no-repeat 0 0;text-indent:-99999px}
+	.tipo.articulo{width:18px;height:25px;top:17px;left:15px;background-image:url(/public/img/css/aplicacion/tipoArticulo_wu_0389ff0cd306f434eab69d56c3bd3763.png)}
+	.tipo.video{width:27px;height:18px;top:22px;background-image:url(/public/img/css/aplicacion/tipoVideo_wu_bb36a6466ebf12462aee1a318d73934d.png)}
+	.tipo.infografia{background-image:url(/public/img/css/aplicacion/tipoInfografia_wu_660c07633dda1c67abdc681642521418.png)}
+div.descripcion{margin:5px 0 10px;color:#4f4d4d;line-height:1.5em}
+div.descripcion p{margin:0}
+
+.itemlistado .comentarios{display:block;margin-bottom:10px;font-weight:bold;color:#5b5954}
+
+.compartir{width:100%;padding:5px 0 0;/*margin-left:-15px*/}
+	.itemlistado.primero .compartir{width:100%;margin-left:0}
+.cajacompartir{display:inline-block;vertical-align:top}
+.cajacompartir .button, .linkedin{display:inline-block;vertical-align:top;margin:0 5px 7px 0 !important}
+.cajacompartir .button.facebook{width:110px}
+.cajacompartir .button.twitter{width:100px}
+.compartir-google, .compartir .mail, .compartir .imprimir{display:inline-block;vertical-align:top;}
+.compartir-google{width:75px !important}
+.compartir .mail{margin:0 7px 0 0}
+
+
+
+
